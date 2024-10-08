@@ -16,10 +16,10 @@ Port/Protocol Combination Counts: The number of occurrences for each port/protoc
 - No custom flow log formats are supported (only the provided format is supported).
 
 ## File Descriptions
-FlowLogParser.java: The Java code to parse and map flow logs.
-resources/flowlog.txt: Input flow log file.
-resources/lookup.csv: Input lookup table file.
-output/output.csv: Generated output file after running the program.
+- FlowLogParser.java: The Java code to parse and map flow logs.
+- resources/flowlog.txt: Input flow log file.
+- resources/lookup.csv: Input lookup table file.
+- output/output.csv: Generated output file after running the program.
 
 ## How to Compile and Run
 
