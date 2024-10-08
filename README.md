@@ -2,8 +2,8 @@
 
 ## Project Overview
 This project parses a flow log file and maps each row to a tag based on a lookup table (lookup.csv) that specifies destination port, protocol, and tag combinations. The program produces an output file (output.csv) that contains two main sections:
-Tag Counts: The number of occurrences for each tag.
-Port/Protocol Combination Counts: The number of occurrences for each port/protocol combination that has a valid mapping in the lookup table.
+* Tag Counts: The number of occurrences for each tag.
+* Port/Protocol Combination Counts: The number of occurrences for each port/protocol combination that has a valid mapping in the lookup table.
 
 ## Assumptions
 - The program only supports default flow log formats (as provided in the sample flowlog.txt).
