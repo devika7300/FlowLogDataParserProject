@@ -16,7 +16,7 @@ This project parses a flow log file and maps each row to a tag based on a lookup
 - No custom flow log formats are supported (only the provided format is supported).
 
 ## File Descriptions
-- FlowLogParser.java: The Java code to parse and map flow logs.
+- FlowLogDataParser.java: The Java code to parse and map flow logs.
 - resources/flowlog.txt: Input flow log file.
 - resources/lookup.csv: Input lookup table file.
 - output/output.csv: Generated output file after running the program.
@@ -31,7 +31,7 @@ A text editor or IDE (like Eclipse or IntelliJ).
 - Clone or Download the Repository:
 
 - Make sure the following files are present in the project:
-FlowLogParser.java (main program)
+FlowLogDataParser.java (main program)
 flowlog.txt (input flow log)
 lookup.csv (lookup table)
 
